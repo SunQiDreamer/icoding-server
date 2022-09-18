@@ -7,4 +7,3 @@ func routes(_ app: Application) throws {
     try app.register(collection: GradeController())
     try app.register(collection: HobbyController())
 }
-
